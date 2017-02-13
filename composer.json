@@ -11,7 +11,9 @@
     "authors": [
         {
             "name": "Clemens Krack",
-            "email": "info@clemenskrack.com"
+	    "email": "info@clemenskrack.com",
+	    "homepage": "https://www.clemenskrack.com",
+	    "role": "Developer"
         }
     ],
     "require": {
