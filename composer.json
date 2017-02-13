@@ -11,9 +11,9 @@
     "authors": [
         {
             "name": "Clemens Krack",
-	    "email": "info@clemenskrack.com",
-	    "homepage": "https://www.clemenskrack.com",
-	    "role": "Developer"
+            "email": "info@clemenskrack.com",
+            "homepage": "https://www.clemenskrack.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -37,10 +37,10 @@
         }
     },
     "scripts": {
-	"test": "phpunit",
-	"start": "php -S localhost:8080 -t public/",
-	"post-create-project-cmd": [
-	    "php -r \"copy('src/example.env', 'src/.env');\""
-	]
+        "test": "phpunit",
+        "start": "php -S localhost:8080 -t public/",
+        "post-create-project-cmd": [
+            "php -r \"copy('src/example.env', 'src/.env');\""
+        ]
     }
 }
