@@ -16,3 +16,7 @@ node_modules
 
 # Sass cache
 .sass-cache/
+
+# public css/js
+public/css/*
+public/jss/*
