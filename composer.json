@@ -2,6 +2,7 @@
     "name": "ckrack/slim3-boilerplate",
     "description": "Opinionated slim3 boilerplate containing league/plates and league/container as replacements for twig and pimple. Also, monolog and phpdotenv will be integrated.",
     "type": "project",
+    "license": "MIT",
     "keywords": [
         "slim3",
         "boilerplate",
