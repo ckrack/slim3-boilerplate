@@ -19,4 +19,6 @@ node_modules
 
 # public css/js
 public/css/*
-public/jss/*
+!public/css/vendor/*
+public/js/*
+!public/js/vendor*
