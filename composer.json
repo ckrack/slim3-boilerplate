@@ -37,6 +37,10 @@
         }
     },
     "scripts": {
-        "test": "phpunit"
+	"test": "phpunit",
+	"start": "php -S localhost:8080 -t public/",
+	"post-create-project-cmd": [
+	    "php -r \"copy('src/example.env', 'src/.env');\""
+	]
     }
 }
